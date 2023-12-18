@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(82, 82, 231);
+            color: white;
+            font: normal 14pt arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os plugins</h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong></p>
+    <div>clique aqui</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = document.getElementsByTagName('p')[1]
+        document.write(p1.innerHTML)
+        corpo.style.backgroundColor = 'black'
+
+    </script>
+    
+</body>
+</html>

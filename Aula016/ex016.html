@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisando numeros</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Body é todo o o site-->
+    <header>
+        <!--aqui germalmente se coloca o cabecalho-->
+        <h1>Analisando numeros</h1>
+    </header>
+    <section>
+        <!--<section> é todo um grupo de divisoes/paragrafos
+            que pode ser considerados como setores ou caixas de assuntos
+        -->
+
+    <!--"<div> significa divisao "-->
+        <div>
+            Numero de 1 - 100: 
+            <input type="number" id="num"> 
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select name="cxnum" id="cxnum" size="10">
+            <option value="addnum"></option>
+        </div>
+        <div>
+            <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="res">
+        </div>
+
+        </section>
+
+
+    <footer>
+        <p>&copy;maianderchagas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
